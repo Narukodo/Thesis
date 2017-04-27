@@ -1,0 +1,211 @@
+fileFormatVersion: 2
+guid: 9886bf4f71dc44d18b02fad80404fc54
+timeCreated: 1463592352
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: chest
+    100004: head
+    100006: l_ankle
+    100008: l_elbow
+    100010: l_foot
+    100012: l_hand
+    100014: l_hip
+    100016: l_knee
+    100018: l_shoulder
+    100020: l_wrist
+    100022: neck
+    100024: pCube3
+    100026: pelvis
+    100028: polySurface1
+    100030: polySurface4
+    100032: r_ankle
+    100034: r_elbow
+    100036: r_foot
+    100038: r_hand
+    100040: r_hip
+    100042: r_knee
+    100044: r_shoulder
+    100046: r_wrist
+    100048: waist
+    400000: //RootNode
+    400002: chest
+    400004: head
+    400006: l_ankle
+    400008: l_elbow
+    400010: l_foot
+    400012: l_hand
+    400014: l_hip
+    400016: l_knee
+    400018: l_shoulder
+    400020: l_wrist
+    400022: neck
+    400024: pCube3
+    400026: pelvis
+    400028: polySurface1
+    400030: polySurface4
+    400032: r_ankle
+    400034: r_elbow
+    400036: r_foot
+    400038: r_hand
+    400040: r_hip
+    400042: r_knee
+    400044: r_shoulder
+    400046: r_wrist
+    400048: waist
+    4300000: polySurface4
+    4300002: polySurface1
+    7400000: Take 002
+    9500000: //RootNode
+    13700000: polySurface1
+    13700002: polySurface4
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 1
+    motionNodeName: 
+    animationImportErrors: '
+
+      Imported file ''chara_run'' conversion failed: Required human bone ''Head''
+      not found
+
+
+'
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 002
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pCube3
+        weight: 1
+      - path: pCube3/polySurface4
+        weight: 1
+      - path: pelvis
+        weight: 1
+      - path: pelvis/l_hip
+        weight: 1
+      - path: pelvis/l_hip/l_knee
+        weight: 1
+      - path: pelvis/l_hip/l_knee/l_ankle
+        weight: 1
+      - path: pelvis/l_hip/l_knee/l_ankle/l_foot
+        weight: 1
+      - path: pelvis/r_hip
+        weight: 1
+      - path: pelvis/r_hip/r_knee
+        weight: 1
+      - path: pelvis/r_hip/r_knee/r_ankle
+        weight: 1
+      - path: pelvis/r_hip/r_knee/r_ankle/r_foot
+        weight: 1
+      - path: pelvis/waist
+        weight: 1
+      - path: pelvis/waist/chest
+        weight: 1
+      - path: pelvis/waist/chest/l_shoulder
+        weight: 1
+      - path: pelvis/waist/chest/l_shoulder/l_elbow
+        weight: 1
+      - path: pelvis/waist/chest/l_shoulder/l_elbow/l_wrist
+        weight: 1
+      - path: pelvis/waist/chest/l_shoulder/l_elbow/l_wrist/l_hand
+        weight: 1
+      - path: pelvis/waist/chest/neck
+        weight: 1
+      - path: pelvis/waist/chest/neck/head
+        weight: 1
+      - path: pelvis/waist/chest/r_shoulder
+        weight: 1
+      - path: pelvis/waist/chest/r_shoulder/r_elbow
+        weight: 1
+      - path: pelvis/waist/chest/r_shoulder/r_elbow/r_wrist
+        weight: 1
+      - path: pelvis/waist/chest/r_shoulder/r_elbow/r_wrist/r_hand
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
